@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+.homepage{
+    color: blue;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 180px;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.example-icon {
+    padding: 0 14px;
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }
+.mat-drawer-container {
+    background-color:silver;
+    color: black;
+}  
+.mat-toolbar.mat-primary {
+    background:rgb(182, 8, 235);
+}
+.mat-drawer {
+    background-color:rgb(182, 8, 235);
+    color: #fff;
+}
+.mat-elevation-z5 {
+    position: relative;
+    z-index: 2;
+}
+.mat-sidenav a:hover{
+    color:cyan;
+}
+.kishorebutton {
+    width: 170px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.kishorebutton:hover {
+    background-color: violet;
+    color: black;
+    font-weight: bold;
+}
